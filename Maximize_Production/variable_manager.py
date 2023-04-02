@@ -21,7 +21,7 @@ class Timer:
 
 class VariableManager:
     """
-    This class manages the constraints for the optimization problem
+    This class manages the variables for the optimization problem
     """
     def __init__(self, model, m=4, t=10):
         self.model = model
